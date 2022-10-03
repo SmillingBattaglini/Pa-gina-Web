@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka+One&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@600&family=Fredoka+One&family=Source+Code+Pro&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+<div class="nav-main">
+    <div class="nav-img">
+        <img src="img/leaf.png" atl="leaf" class="hoja">
+        <h1 class="titulo">EasyBay</h1>
+        <input type="text" name="input_texto" id="input_texto" placeholder="Search for anything">
+        <span class="carrito">Sing In</span>
+        <img src="img/cart-dark.png" alt="car" class="carr" onclick="displayAlert(this)">
+    </div>
+    <div class="nav-texto">
+        <ul class="dentro">
+            <li>Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agove</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+    </div>
+</div>
+<div class="contenedor">
+    <div class="header">
+        <h1>Your Source for Serius Succulent Specialties</h1>
+    </div>
+    <div class="body">
+        <div class="row">
+            <div class="row1">
+                <div class="colm1">
+                    <p class="text">Discover succ-ulent varieties one pot or rack at a time!</p>
+                    <div class="abajo">
+                        <span class="cover">Discover</span>
+                        <img src="img/arrow-light.png" alt="arrow" class="flecha">
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <img  src="img/succulents-1.jpg" alt="plantas"  onmouseover="this.src='img/succulents-2.jpg'"  onmouseout="this.src='img/succulents-1.jpg'">
+            </div>
+            <div class="row3">
+                <div class="colm3">
+                    <div class="colm3-0">
+                        <img src="img/aloe-m.jpg" alt="aloe1" class="sabila">
+                    </div>
+                    <div class="colm3-1">
+                        <span class="cover">Soothing Aloe</span>
+                        <img src="img/arrow-light.png" alt="arrow" class="flecha">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row1-2">
+            <div class="inside">
+                <img src="img/aeonium-s.jpg" alt="aeonium" class="imagen">
+                <span class="plants">Aeonium</span>
+            </div>
+            <div class="inside">
+                <img src="img/aloe-s.jpg" alt="aloe-s" class="imagen">
+                <span class="plants">Aloe</span>
+            </div>
+            <div class="inside">
+                <img src="img/cactus-s.jpg" alt="captus-s" class="imagen">
+                <span class="plants">Captus</span>
+            </div>
+            <div class="inside">
+                <img src="img/echeveria-s.jpg" alt="echeverria-s" class="imagen">
+                <span class="plants">Echeverria</span>
+            </div>
+            <div class="inside">
+                <img src="img/sedum-s.jpg" alt="sedum-s" class="imagen">
+                <span class="plants">Sedum</span>
+            </div>
+            <div class="inside">
+                <img src="img/sempervivum-s.jpg" alt="sempervivum-s" class="imagen">
+                <span class="plants">Sempervivum</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="alerta">
+            <img src="img/alert-dark.png" alt="alet" class="triangulo">
+            <div class="pie">
+                <p class="alert">This site makes use of third-party cookies, by clicking "I accept" your agree to eh terms outlined in our <a href="#">coookie policy.</a></p>
+            </div>
+            <button class="btn" onclick="dismissCookie()">I Accept</button>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
